@@ -1,0 +1,49 @@
+img {
+  width: 210px;
+  margin-bottom: 80px;
+}
+
+h1, h2, h3 {
+  color: white;
+}
+
+div {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  background-blend-mode: multiply;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 31px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: normal;
+  padding-top: 45px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 31px;
+  margin: 35px, 35px, 35px, 35px;
+}
+
+h3 {
+  font-style: '';
+  font-size: 11px;
+  text-transform: uppercase;
+  line-height: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+
+p {
+  font-size: 20px;
+  margin: 0;
+  line-height: 2;
+  text-align: center;
+  color: black;
+}
