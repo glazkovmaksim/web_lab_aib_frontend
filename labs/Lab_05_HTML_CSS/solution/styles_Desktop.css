@@ -1,0 +1,71 @@
+body {
+    margin: 0 40px;
+    }
+    h1 {
+        font-style:italic;
+        color:black;
+    }    
+    p {
+        font-style:italic;
+        font-weight: lighter;
+    }
+    header {
+        text-align: left;
+    }
+    
+    img {
+        margin: 12px 0;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    main {
+        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    }
+
+    nav {
+        margin-top: 0;
+        float: right;
+        font-style: italic;
+    }
+    
+    nav a:last-child {
+        margin-left: 30px;
+    }
+    
+    .main-catalog .item:hover img,
+    .promo-catalog .item:hover img {
+        opacity: 0.6;
+        transition: opacity 0.3s ease;
+    }
+    
+    .main-catalog {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    .main-catalog .item {
+    width: calc(33.33% - 24px);
+    margin-right: 24px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    }
+    
+    .promo-catalog {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .promo-catalog h1 {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+    
+    .promo-catalog .item {
+        width: calc(25% - 20px);
+        margin-right: 20px;
+    }

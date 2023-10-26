@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 12px;
+}
+
+p {
+    font-style:italic;
+    font-weight: lighter;
+}
+
+main {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    margin-top: 12px;
+}
+
+nav a {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+nav a:last-child {
+    margin-left: 30px;
+}
+
+.main-catalog, .promo-catalog {
+    margin: 0 12px;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.item p {
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+.item:hover {
+    opacity: 0.6;
+}
+
+.promo-catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+main h1 {
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.promo-catalog h1 {
+    width: 100%;
+    margin: 0 0 20px;
+    font-size: 70px;
+    margin-left: 20px;
+}
+
+.promo-catalog .item {
+    width: calc(50% - 12px);
+    margin-bottom: 20px;
+    padding: 12px;
+    box-sizing: border-box;
+}
