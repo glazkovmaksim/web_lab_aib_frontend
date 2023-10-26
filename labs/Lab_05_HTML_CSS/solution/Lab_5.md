@@ -197,7 +197,7 @@ main h1 {
     box-sizing: border-box;
 }
 ```
-![Вывод мобильной версии:](/materials/screen_Web.jpeg)
+![Вывод мобильной версии:](screen_Web.jpeg)
 
 ***Задание №3. Адаптация под десктопы***
 *Код:*
@@ -274,6 +274,6 @@ body {
         margin-right: 20px;
     }
 ```
-![Вывод десктопной версии:](/materials/screenWeb_2.jpeg)
+![Вывод десктопной версии:](screenWeb_2.jpeg)
 
 
