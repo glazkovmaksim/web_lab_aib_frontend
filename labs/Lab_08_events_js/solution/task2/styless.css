@@ -1,0 +1,24 @@
+.color-generator {
+    margin: 20px;
+    display: flex;
+}
+
+.inputs-column {
+    margin-right: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#color-display {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    display: block;
+}

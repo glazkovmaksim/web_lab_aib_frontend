@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="color-generator">
+    <div class="inputs-column">
+        <label for="red">Red:</label>
+        <input type="text" id="red" maxlength="3" pattern="\d*" oninput="updateColor()">
+        
+        <label for="green">Green:</label>
+        <input type="text" id="green" maxlength="3" pattern="\d*" oninput="updateColor()">
+        
+        <label for="blue">Blue:</label>
+        <input type="text" id="blue" maxlength="3" pattern="\d*" oninput="updateColor()">
+    </div>
+    
+    <div class="color-display-column">
+        <label for="highlighted">Highlighted:</label>
+        <span id="color-display"></span>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
